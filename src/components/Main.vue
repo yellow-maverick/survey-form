@@ -5,6 +5,8 @@ import Multiselect from "vue-multiselect";
 
 <template>
   <div>
-    
+    <div class="">
+     card with questions 
+    </div>
   </div>
 </template>

@@ -1,15 +1,15 @@
 {
-  "name": "-survey-form",
+  "name": "survey-form",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp -d 404.html docs",
     "preview": "vite preview"
   },
   "dependencies": {
-    "skeleton": "^0.1.2",
+    "alova": "^2.17.1",
     "vue": "^3.4.19",
     "vue-multiselect": "^2.1.9"
   },
